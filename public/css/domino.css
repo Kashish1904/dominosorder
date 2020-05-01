@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+
+body {
+}
+.item {
+  max-width: 30%;
+  display: inline-block;
+}
+.img {
+  max-width: 99%;
+}
+
+.button {
+  padding: 5px;
+  display: inline-block;
+}
+#media {
+  height: 400px;
+}
+#logo {
+  margin-top: 200px;
+  display: inline-block;
+  margin-left: 100px;
+  width: 20px;
+  height: 20px;
+}
+#ad {
+  border: 0px solid transparent;
+  border-radius: 30px;
+  float: right;
+  height: 100%;
+  max-width: 49%;
+}
+#contact {
+  margin: 3px 0px;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+header {
+  background-color: #09f;
+}
+#head {
+  background-blend-mode: overlay;
+  height: 450px;
+  background-position: center;
+}
