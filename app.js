@@ -41,7 +41,7 @@ const Adress = mongoose.model("Adress", paymentSchema);
 const Order = mongoose.model("Order", detailsSchema);
 
 app.get("/", function(req, res){
-  res.sendFile(__dirname+"/homepage.html")
+  res.sendFile(__dirname+"/index.html")
 });
 app.get("/checkout.html", function(req, res){
   res.sendFile(__dirname+"/checkout.html");
